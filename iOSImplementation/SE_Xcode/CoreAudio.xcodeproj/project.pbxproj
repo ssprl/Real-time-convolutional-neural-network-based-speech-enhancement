@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161FC264216D3803003EBECA /* frozentensorflowModel.pb in Resources */ = {isa = PBXBuildFile; fileRef = 161FC263216D3803003EBECA /* frozentensorflowModel.pb */; };
+		161FC26B216E58E6003EBECA /* FIRFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 161FC269216E58E6003EBECA /* FIRFilter.mm */; };
+		1651EB121E93F0460032A515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB111E93F0460032A515 /* main.m */; };
+		1651EB151E93F0460032A515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB141E93F0460032A515 /* AppDelegate.m */; };
+		1651EB181E93F0460032A515 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB171E93F0460032A515 /* ViewController.mm */; };
+		1651EB1B1E93F0460032A515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1651EB191E93F0460032A515 /* Main.storyboard */; };
+		1651EB1D1E93F0460032A515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1651EB1C1E93F0460032A515 /* Assets.xcassets */; };
+		1651EB201E93F0460032A515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1651EB1E1E93F0460032A515 /* LaunchScreen.storyboard */; };
+		1651EB2B1E93F0460032A515 /* CoreAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB2A1E93F0460032A515 /* CoreAudioTests.m */; };
+		1651EB361E93F0460032A515 /* CoreAudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB351E93F0460032A515 /* CoreAudioUITests.m */; };
+		1651EB471E93F0870032A515 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1651EB441E93F0870032A515 /* AudioToolbox.framework */; };
+		1651EB491E93F0870032A515 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1651EB461E93F0870032A515 /* AVFoundation.framework */; };
+		1651EB5A1E943C6E0032A515 /* FIR.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1651EB591E943C6E0032A515 /* FIR.mm */; };
+		1651EC2B1E9FDA7B0032A515 /* Transforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1651EC2A1E9FDA7B0032A515 /* Transforms.mm */; };
+		16596BB222834F4700D122BB /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16596BB122834F4700D122BB /* CoreML.framework */; };
+		1669EDD7215EB6F600C05EE0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1669EDD6215EB6F600C05EE0 /* Accelerate.framework */; };
+		16C847DC209CB4C40020C943 /* ssprl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16C847DB209CB4C40020C943 /* ssprl.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1651EB271E93F0460032A515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1651EB051E93F0460032A515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1651EB0C1E93F0460032A515;
+			remoteInfo = CoreAudio;
+		};
+		1651EB321E93F0460032A515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1651EB051E93F0460032A515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1651EB0C1E93F0460032A515;
+			remoteInfo = CoreAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		161FC260216D2F6A003EBECA /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		161FC263216D3803003EBECA /* frozentensorflowModel.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = frozentensorflowModel.pb; sourceTree = "<group>"; };
+		161FC269216E58E6003EBECA /* FIRFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FIRFilter.mm; sourceTree = "<group>"; };
+		161FC26A216E58E6003EBECA /* FIRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRFilter.h; sourceTree = "<group>"; };
+		161FC26C216E59F6003EBECA /* filterCoefficients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filterCoefficients.h; sourceTree = "<group>"; };
+		1651EB0D1E93F0460032A515 /* CoreAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1651EB111E93F0460032A515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1651EB131E93F0460032A515 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1651EB141E93F0460032A515 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1651EB161E93F0460032A515 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1651EB171E93F0460032A515 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		1651EB1A1E93F0460032A515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1651EB1C1E93F0460032A515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1651EB1F1E93F0460032A515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1651EB211E93F0460032A515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1651EB261E93F0460032A515 /* CoreAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1651EB2A1E93F0460032A515 /* CoreAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioTests.m; sourceTree = "<group>"; };
+		1651EB2C1E93F0460032A515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1651EB311E93F0460032A515 /* CoreAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1651EB351E93F0460032A515 /* CoreAudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioUITests.m; sourceTree = "<group>"; };
+		1651EB371E93F0460032A515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1651EB441E93F0870032A515 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1651EB461E93F0870032A515 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1651EB4D1E93F85F0032A515 /* FIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIR.h; sourceTree = "<group>"; };
+		1651EB591E943C6E0032A515 /* FIR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FIR.mm; sourceTree = "<group>"; };
+		1651EC291E9FDA7B0032A515 /* Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transforms.h; path = CoreAudio/Transforms.h; sourceTree = "<group>"; };
+		1651EC2A1E9FDA7B0032A515 /* Transforms.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Transforms.mm; path = CoreAudio/Transforms.mm; sourceTree = "<group>"; };
+		16596BB122834F4700D122BB /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		1667E56C21C180E30059C6AC /* data1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data1.h; sourceTree = "<group>"; };
+		1669EDD6215EB6F600C05EE0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		16C847DB209CB4C40020C943 /* ssprl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ssprl.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1651EB0A1E93F0460032A515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16596BB222834F4700D122BB /* CoreML.framework in Frameworks */,
+				1669EDD7215EB6F600C05EE0 /* Accelerate.framework in Frameworks */,
+				1651EB471E93F0870032A515 /* AudioToolbox.framework in Frameworks */,
+				1651EB491E93F0870032A515 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB231E93F0460032A515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB2E1E93F0460032A515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1651EB041E93F0460032A515 = {
+			isa = PBXGroup;
+			children = (
+				1667E56C21C180E30059C6AC /* data1.h */,
+				16C847DB209CB4C40020C943 /* ssprl.jpg */,
+				1651EC291E9FDA7B0032A515 /* Transforms.h */,
+				1651EC2A1E9FDA7B0032A515 /* Transforms.mm */,
+				1651EB591E943C6E0032A515 /* FIR.mm */,
+				1651EB4D1E93F85F0032A515 /* FIR.h */,
+				1651EB0F1E93F0460032A515 /* CoreAudio */,
+				1651EB291E93F0460032A515 /* CoreAudioTests */,
+				1651EB341E93F0460032A515 /* CoreAudioUITests */,
+				1651EB0E1E93F0460032A515 /* Products */,
+				1651EB431E93F0870032A515 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1651EB0E1E93F0460032A515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1651EB0D1E93F0460032A515 /* CoreAudio.app */,
+				1651EB261E93F0460032A515 /* CoreAudioTests.xctest */,
+				1651EB311E93F0460032A515 /* CoreAudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1651EB0F1E93F0460032A515 /* CoreAudio */ = {
+			isa = PBXGroup;
+			children = (
+				161FC26C216E59F6003EBECA /* filterCoefficients.h */,
+				161FC269216E58E6003EBECA /* FIRFilter.mm */,
+				161FC26A216E58E6003EBECA /* FIRFilter.h */,
+				161FC263216D3803003EBECA /* frozentensorflowModel.pb */,
+				161FC260216D2F6A003EBECA /* Data.h */,
+				1651EB131E93F0460032A515 /* AppDelegate.h */,
+				1651EB141E93F0460032A515 /* AppDelegate.m */,
+				1651EB161E93F0460032A515 /* ViewController.h */,
+				1651EB171E93F0460032A515 /* ViewController.mm */,
+				1651EB191E93F0460032A515 /* Main.storyboard */,
+				1651EB1C1E93F0460032A515 /* Assets.xcassets */,
+				1651EB1E1E93F0460032A515 /* LaunchScreen.storyboard */,
+				1651EB211E93F0460032A515 /* Info.plist */,
+				1651EB101E93F0460032A515 /* Supporting Files */,
+			);
+			path = CoreAudio;
+			sourceTree = "<group>";
+		};
+		1651EB101E93F0460032A515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1651EB111E93F0460032A515 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1651EB291E93F0460032A515 /* CoreAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				1651EB2A1E93F0460032A515 /* CoreAudioTests.m */,
+				1651EB2C1E93F0460032A515 /* Info.plist */,
+			);
+			path = CoreAudioTests;
+			sourceTree = "<group>";
+		};
+		1651EB341E93F0460032A515 /* CoreAudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1651EB351E93F0460032A515 /* CoreAudioUITests.m */,
+				1651EB371E93F0460032A515 /* Info.plist */,
+			);
+			path = CoreAudioUITests;
+			sourceTree = "<group>";
+		};
+		1651EB431E93F0870032A515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16596BB122834F4700D122BB /* CoreML.framework */,
+				1669EDD6215EB6F600C05EE0 /* Accelerate.framework */,
+				1651EB441E93F0870032A515 /* AudioToolbox.framework */,
+				1651EB461E93F0870032A515 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1651EB0C1E93F0460032A515 /* CoreAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651EB3A1E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudio" */;
+			buildPhases = (
+				1651EB091E93F0460032A515 /* Sources */,
+				1651EB0A1E93F0460032A515 /* Frameworks */,
+				1651EB0B1E93F0460032A515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAudio;
+			productName = CoreAudio;
+			productReference = 1651EB0D1E93F0460032A515 /* CoreAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1651EB251E93F0460032A515 /* CoreAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651EB3D1E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudioTests" */;
+			buildPhases = (
+				1651EB221E93F0460032A515 /* Sources */,
+				1651EB231E93F0460032A515 /* Frameworks */,
+				1651EB241E93F0460032A515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1651EB281E93F0460032A515 /* PBXTargetDependency */,
+			);
+			name = CoreAudioTests;
+			productName = CoreAudioTests;
+			productReference = 1651EB261E93F0460032A515 /* CoreAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1651EB301E93F0460032A515 /* CoreAudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651EB401E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudioUITests" */;
+			buildPhases = (
+				1651EB2D1E93F0460032A515 /* Sources */,
+				1651EB2E1E93F0460032A515 /* Frameworks */,
+				1651EB2F1E93F0460032A515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1651EB331E93F0460032A515 /* PBXTargetDependency */,
+			);
+			name = CoreAudioUITests;
+			productName = CoreAudioUITests;
+			productReference = 1651EB311E93F0460032A515 /* CoreAudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1651EB051E93F0460032A515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = default;
+				TargetAttributes = {
+					1651EB0C1E93F0460032A515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9QHUGJ42E4;
+						ProvisioningStyle = Automatic;
+					};
+					1651EB251E93F0460032A515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9QHUGJ42E4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1651EB0C1E93F0460032A515;
+					};
+					1651EB301E93F0460032A515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9QHUGJ42E4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1651EB0C1E93F0460032A515;
+					};
+				};
+			};
+			buildConfigurationList = 1651EB081E93F0460032A515 /* Build configuration list for PBXProject "CoreAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 1651EB041E93F0460032A515;
+			productRefGroup = 1651EB0E1E93F0460032A515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1651EB0C1E93F0460032A515 /* CoreAudio */,
+				1651EB251E93F0460032A515 /* CoreAudioTests */,
+				1651EB301E93F0460032A515 /* CoreAudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1651EB0B1E93F0460032A515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C847DC209CB4C40020C943 /* ssprl.jpg in Resources */,
+				161FC264216D3803003EBECA /* frozentensorflowModel.pb in Resources */,
+				1651EB201E93F0460032A515 /* LaunchScreen.storyboard in Resources */,
+				1651EB1D1E93F0460032A515 /* Assets.xcassets in Resources */,
+				1651EB1B1E93F0460032A515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB241E93F0460032A515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB2F1E93F0460032A515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1651EB091E93F0460032A515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651EB181E93F0460032A515 /* ViewController.mm in Sources */,
+				1651EB151E93F0460032A515 /* AppDelegate.m in Sources */,
+				1651EB5A1E943C6E0032A515 /* FIR.mm in Sources */,
+				161FC26B216E58E6003EBECA /* FIRFilter.mm in Sources */,
+				1651EC2B1E9FDA7B0032A515 /* Transforms.mm in Sources */,
+				1651EB121E93F0460032A515 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB221E93F0460032A515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651EB2B1E93F0460032A515 /* CoreAudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651EB2D1E93F0460032A515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651EB361E93F0460032A515 /* CoreAudioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1651EB281E93F0460032A515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1651EB0C1E93F0460032A515 /* CoreAudio */;
+			targetProxy = 1651EB271E93F0460032A515 /* PBXContainerItemProxy */;
+		};
+		1651EB331E93F0460032A515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1651EB0C1E93F0460032A515 /* CoreAudio */;
+			targetProxy = 1651EB321E93F0460032A515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1651EB191E93F0460032A515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1651EB1A1E93F0460032A515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1651EB1E1E93F0460032A515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1651EB1F1E93F0460032A515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1651EB381E93F0460032A515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1651EB391E93F0460032A515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1651EB3B1E93F0460032A515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/eigen",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/protobuf/src",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/proto",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/absl",
+				);
+				INFOPLIST_FILE = CoreAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a",
+					"-force_load",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/nsync/builds/lipo.ios.c++11/nsync.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssprl.ccjmap-F17-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1651EB3C1E93F0460032A515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/eigen",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/protobuf/src",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/proto",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/absl",
+				);
+				INFOPLIST_FILE = CoreAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a",
+					"-force_load",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
+					"/Users/nxs162330/Documents/Nikhil/tensorflow-master/tensorflow/contrib/makefile/downloads/nsync/builds/lipo.ios.c++11/nsync.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssprl.ccjmap-F17-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1651EB3E1E93F0460032A515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				INFOPLIST_FILE = CoreAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssprl.CoreAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAudio.app/CoreAudio";
+			};
+			name = Debug;
+		};
+		1651EB3F1E93F0460032A515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				INFOPLIST_FILE = CoreAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssprl.CoreAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAudio.app/CoreAudio";
+			};
+			name = Release;
+		};
+		1651EB411E93F0460032A515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				INFOPLIST_FILE = CoreAudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssprl.CoreAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreAudio;
+			};
+			name = Debug;
+		};
+		1651EB421E93F0460032A515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9QHUGJ42E4;
+				INFOPLIST_FILE = CoreAudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssprl.CoreAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreAudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1651EB081E93F0460032A515 /* Build configuration list for PBXProject "CoreAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651EB381E93F0460032A515 /* Debug */,
+				1651EB391E93F0460032A515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1651EB3A1E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651EB3B1E93F0460032A515 /* Debug */,
+				1651EB3C1E93F0460032A515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1651EB3D1E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651EB3E1E93F0460032A515 /* Debug */,
+				1651EB3F1E93F0460032A515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1651EB401E93F0460032A515 /* Build configuration list for PBXNativeTarget "CoreAudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651EB411E93F0460032A515 /* Debug */,
+				1651EB421E93F0460032A515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1651EB051E93F0460032A515 /* Project object */;
+}
