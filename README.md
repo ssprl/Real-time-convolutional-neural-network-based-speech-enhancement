@@ -22,7 +22,7 @@ https://utdallas.edu/ssprl/cnn-based-speech-enhancement/
 - NOTE** The implementation procedure is not in use now since the tensorflow versions have changed significantly. The .pb version is no longer supported by iOS and the .tflite versions have been released. The feature extraction and training procedure can be used. Look into  for latest iOS implementation 
 
 ## License and Citation
-The codes are licensed under MIT license.
+The codes are licensed under open-source MIT license.
 
 For any utilization of the code content of this repository, one of the following books needs to get cited by the user:
 
