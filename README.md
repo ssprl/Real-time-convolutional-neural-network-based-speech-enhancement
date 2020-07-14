@@ -1,6 +1,3 @@
-# Real-time-convolutional-neural-network-based-speech-enhancement
-# Real-time-convolutional-neural-network-based-speech-enhancement
-
 # A real-time convolutional neural network based speech enhancement for hearing impaired listeners using smartphone 
 
 ## Overview
@@ -32,6 +29,4 @@ For any utilization of the code content of this repository, one of the following
 - G. S. Bhat, N. Shankar, C. K. A. Reddy and I. M. S. Panahi, "A Real-Time Convolutional Neural Network Based Speech Enhancement for Hearing Impaired Listeners Using Smartphone," in IEEE Access, vol. 7, pp. 78421-78433, 2019, doi: 10.1109/ACCESS.2019.2922370.
 
 ## Disclaimer
-This work was supported in part by the National Institute of the Deafness and Other Communication Disorders (NIDCD) of the National
-
-Institutes of Health (NIH) under Award 1R01DC015430-03. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH
+This work was supported in part by the National Institute of the Deafness and Other Communication Disorders (NIDCD) of the National Institutes of Health (NIH) under Award 1R01DC015430-03. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH
